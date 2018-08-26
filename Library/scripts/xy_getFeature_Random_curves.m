@@ -24,7 +24,7 @@ end
 % randomly select labeling site, and labeled emitter locations(inlcuding labeling uncertainty).
 locG = loc;
 locwInds = sortrows([loc,rand(Random_curves.StriN*Random_curves.StriLN, 1)], 4);% put random indexes for all the available labeling site.
-loc = locwInds(1:Random_curves.LabelN, :);% so these are targeted labeling sites.
+loc = locwInds(1:Random_curves.LabelN, 1:3);% so these are targeted labeling sites.
 loc(:, 1:3) = loc(:, 1:3) + Random_curves.LabelU/Random_curves.UniLen.*randn(Random_curves.LabelN, 3); % so this is the actual emitter locations, including labeling uncertainty.
 EmiLoc = floor(loc) + 1;
 
