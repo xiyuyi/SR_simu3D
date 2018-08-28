@@ -29,9 +29,11 @@ featureName = 'Demo2_Random_Aggregates';
     % It is flexible to use different bleaching curves. 
     % one can calculate a bleaching curve, or use experiment calibration
     % observation. 
-
-addpath(genpath([packagePath,'/Library']));
-
+    cp=pwd;
+    cd([packagePath,'/Library'])
+    addpath(genpath(pwd));
+    cd(cp)
+    
 %% specify Feature properties. [demonstration of random curves]
 % Here we demonstrate an example to simulate random curves. 
     Feature.UniLen = 9.333;                             % Unit Length Before Binning, (nm), It's not the strign Link Length (Feature.StriLL).

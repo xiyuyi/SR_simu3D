@@ -29,8 +29,10 @@ featureName = 'Demo4_overlay_features';
     % It is flexible to use different bleaching curves. 
     % one can calculate a bleaching curve, or use experiment calibration
     % observation. 
-
-addpath(genpath([packagePath,'/Library']));
+    cp=pwd;
+    cd([packagePath,'/Library'])
+    addpath(genpath(pwd));
+    cd(cp)
 
 %% specify Feature properties. [demonstration of overlyaing multiple precomputed features]
 % Here we demonstrate an example to use pre-computed feature. 

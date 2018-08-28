@@ -29,8 +29,10 @@ featureName = 'Demo1_Random_Curves';
     % It is flexible to use different bleaching curves. 
     % one can calculate a bleaching curve, or use experiment calibration
     % observation. 
-
-addpath(genpath([packagePath,'/Library']));
+    cp=pwd;
+    cd([packagePath,'/Library'])
+    addpath(genpath(pwd));
+    cd(cp)
 
 %% specify Feature properties. [demonstration of random curves]
 % Here we demonstrate an example to simulate random curves. 
