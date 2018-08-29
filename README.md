@@ -31,8 +31,10 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
   1. The asociated publication being properly cited and credited.
+  
       X. Yi, S. Son, S. Weiss, "Moments reconstruction and local dynamic range 
       compression of high order Super-resolution of Optical Fluctuation Imaging", to be submitted. 
+      
   2. Author information (name, email address) shall remain the same in the assocaited script files when used in other packages. 
   
 The above copyright notice and this permission notice shall be included in all
