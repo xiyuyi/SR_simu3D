@@ -38,15 +38,15 @@ featureName = 'Demo4_overlay_features';
 % Here we demonstrate an example to use pre-computed feature. 
 % we first load 3 pre-computed features. You can calculate other features
 % as soon as the variable format is in good match.
-    load(['/Library/datafiles/Features/Demo_Random_Curves_Labeled.mat'],'Feature'); 
+    load([packagePath,'/Library/datafiles/Features/Demo_Random_Curves_Labeled.mat'],'Feature'); 
     Feature1 = Feature;
     multipe_features.random_curves = Feature1.specifics; % for record-keeping purposes
     
-    load(['/Library/datafiles/Features/Demo_Random_Aggregates_Labeled.mat'],'Feature'); 
+    load([packagePath,'/Library/datafiles/Features/Demo_Random_Aggregates_Labeled.mat'],'Feature'); 
     Feature2 = Feature;
     multipe_features.random_aggregates = Feature2.specifics; % for record-keeping purposes
     
-    load(['/Library/datafiles/Features/Demo_Random_Vesicles_Labeled.mat'],'Feature'); 
+    load([packagePath,'/Library/datafiles/Features/Demo_Random_Vesicles_Labeled.mat'],'Feature'); 
     Feature3 = Feature;
     multipe_features.random_vesicles = Feature3.specifics; % for record-keeping purposes
     Feature.EmiLoc = [Feature1.EmiLoc; Feature2.EmiLoc; Feature3.EmiLoc];
