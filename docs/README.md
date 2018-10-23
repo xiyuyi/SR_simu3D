@@ -1,19 +1,20 @@
 # SOFI_simu3D
 This is a simulation package designed to create realistic simulations for the study of super-resolution of fluorescence microscopy. It is available under MIT license (please refer to the LICENSE file for more details).
 
-## Introduction
 
-## The modualized design
+### Introduction
 
-## description of individual modules
+### The modualized design
 
-## How to generate simulation of random curve?
+### description of individual modules
 
-## How to change the PSF module?
+### How to generate simulation of random curve?
 
-## How to add noise?
+### How to change the PSF module?
+
+### How to add noise?
  
-## How to use pre-computed feature?
+### How to use pre-computed feature?
 
 
 
