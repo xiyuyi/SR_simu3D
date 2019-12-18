@@ -33,7 +33,7 @@ furnished to do so, subject to the following conditions:
   1. The asociated publication (listed bellow) being properly cited and credited.
   
       X. Yi, S. Son, S. Weiss, "Moments reconstruction and local dynamic range 
-      compression of high order Super-resolution of Optical Fluctuation Imaging", submitted. 
+      compression of high order Super-resolution of Optical Fluctuation Imaging", Biomedical Optics Express Vol. 10, Issue 5, pp. 2430-2445 (2019) •https://doi.org/10.1364/BOE.10.002430 
       
   2. Author information (name, email address) shall remain the same in the assocaited script files when used in other packages. 
   
