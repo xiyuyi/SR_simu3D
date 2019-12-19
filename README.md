@@ -21,7 +21,7 @@ This is a simulation package designed to create realistic simulations for the st
 
 If you find this code helpful, please cite the following publications:
   
-      X. Yi, S. Son, S. Weiss, "Moments reconstruction and local dynamic range 
+      X. Yi, S. Son, R. Ando, A. Miyawaki, & S. Weiss, "Moments reconstruction and local dynamic range 
       compression of high order Super-resolution of Optical Fluctuation Imaging", 
       Biomedical Optics Express Vol. 10, Issue 5, pp. 2430-2445 (2019) 
       •https://doi.org/10.1364/BOE.10.002430 
