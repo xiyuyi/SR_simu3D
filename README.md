@@ -26,8 +26,9 @@ If you find this code helpful, please cite the following publications:
       Biomedical Optics Express Vol. 10, Issue 5, pp. 2430-2445 (2019) 
       •https://doi.org/10.1364/BOE.10.002430 
       
-      X. Yi, & S. Weiss, "Cusp-artifacts in high order superresolution optical 
-      fluctuation imaging", bioRxiv (2019), 545574. [Accepted for publication 
-      on Biomedical Optics Express].
+      Yi, X. and Weiss, S., 2020. Cusp-artifacts in high order superresolution optical fluctuation 
+      imaging. Biomedical Optics Express, 11(2), pp.554-570.
+      https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-11-2-554&id=425585
+      
       
 Refer to LICENSE for more details.
